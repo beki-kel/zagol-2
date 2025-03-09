@@ -4,13 +4,9 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import {
   faUser,
-  faEnvelope,
-  faPhone,
-  faIdCard,
   faSuitcase,
   faCreditCard,
 } from "@fortawesome/free-solid-svg-icons";
-import { faPaypal } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface PassengerDetails {
