@@ -49,9 +49,6 @@ const SectionGridHasMap: FC<SectionGridHasMapProps> = () => {
               </div>
             ))}
           </div>
-          <div className="flex mt-16 justify-center items-center">
-            <Pagination />
-          </div>
         </div>
 
         <div
@@ -99,7 +96,6 @@ const SectionGridHasMap: FC<SectionGridHasMapProps> = () => {
                   key={item.id}
                   lat={item.map.lat}
                   lng={item.map.lng}
-                  experiences={item}
                 />
               ))}
             </GoogleMapReact>
