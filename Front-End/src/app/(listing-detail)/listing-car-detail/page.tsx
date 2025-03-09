@@ -203,7 +203,7 @@ const ListingCarDetailPage: FC<ListingCarDetailPageProps> = ({}) => {
         </div>
 
         {/* SUBMIT */}
-        <ButtonPrimary href={"/checkout"}>Reserve</ButtonPrimary>
+        <ButtonPrimary href={"/"}>Reserve</ButtonPrimary>
       </div>
     );
   };
