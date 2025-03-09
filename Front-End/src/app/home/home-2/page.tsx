@@ -1,7 +1,7 @@
-import Header from "@/app/(client-components)/(Header)/Header";
 import SectionDowloadApp from "../SectionDowloadApp";
+import Header from "@/app/(client-components)/(Header)/Header";
 
-const PageHome2Mobile = () => {
+const PageHome2 = () => {
   return (
     <div className="relative">
       <Header className="h-12 sticky z-50" />
@@ -14,4 +14,4 @@ const PageHome2Mobile = () => {
   );
 };
 
-export default PageHome2Mobile;
+export default PageHome2;
