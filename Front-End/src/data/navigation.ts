@@ -3,26 +3,6 @@ import ncNanoId from "@/utils/ncNanoId";
 import { Route } from "@/routers/types";
 import __megamenu from "./jsons/__megamenu.json";
 
-const demoChildMenus: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Online booking",
-  },
-  {
-    id: ncNanoId(),
-    href: "/home-2",
-    name: "Real estate",
-    isNew: true,
-  },
-  {
-    id: ncNanoId(),
-    href: "/home-3",
-    name: "Home 3",
-    isNew: true,
-  },
-];
-
 const otherPageChildMenus: NavItemType[] = [
   { id: ncNanoId(), href: "/blog", name: "Blog page" },
   { id: ncNanoId(), href: "/blog/single" as Route, name: "Blog single" },
