@@ -23,7 +23,6 @@ interface PassengerDetails {
 interface PassengerDetailsModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onSubmit: (passengerDetails: PassengerDetails) => void;
   airlineName: string;
   flightType: string;
   price: number;
@@ -32,7 +31,6 @@ interface PassengerDetailsModalProps {
 const PassengerDetailsModal: React.FC<PassengerDetailsModalProps> = ({
   isOpen,
   onClose,
-  onSubmit,
   airlineName,
   flightType,
   price,
