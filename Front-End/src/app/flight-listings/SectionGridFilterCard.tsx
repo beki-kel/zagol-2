@@ -5,7 +5,7 @@ import OnTopDateSlider from "./onTopDateSlider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlaneSlash } from "@fortawesome/free-solid-svg-icons";
 import noResultFound from "@/images/noResultFoundcroppes.png";
-import PassengerDetailsModal from "@/app/checkout/flightCheckout/page"; // Import the modal
+import PassengerDetailsModal from "@/components/PassengerDetailsModal"; // Import the modal
 
 export interface SectionGridFilterCardProps {
   className?: string;
