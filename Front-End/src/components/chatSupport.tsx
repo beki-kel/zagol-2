@@ -27,10 +27,10 @@ const ChatSupport: React.FC = () => {
     <>
       {/* Chat Popover */}
       {isChatOpen && (
-        <div className="mb-3 fixed bottom-24 right-4 w-[30vw] h-[60vh] bg-gradient-to-br from-[#2995D3]/10 to-white dark:from-[#1e1e1e]/10 dark:to-[#2e2e2e] rounded-2xl shadow-2xl z-[1200] flex flex-col backdrop-blur-lg border border-[#2995D3]/20 dark:border-[#444] transform transition-all duration-300 hover:shadow-[0_0_30px_-5px_rgba(41,149,211,0.3)]">
-          <div className="flex justify-between items-center p-4 border-b border-[#2995D3]/20 dark:border-[#444] relative">
+        <div className="mb-3 fixed bottom-24 right-4 w-[30vw] h-[60vh] bg-gradient-to-br from-[#2995D3]/10 to-white dark:from-[#1e1e1e]/10 dark:to-[#2e2e2e] rounded-2xl shadow-2xl z-[1200] flex flex-col backdrop-blur-2xl border border-[#2995D3]/20 dark:border-[#444] transform transition-all duration-300 hover:shadow-[0_0_30px_-5px_rgba(41,149,211,0.3)]">
+          <div className="flex justify-between items-center p-2 border-b border-[#2995D3]/20 dark:border-[#444] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-[#2995D3]/10 to-transparent dark:from-[#1e1e1e]/10 opacity-30 rounded-t-lg" />
-            <h3 className="text-xl font-bold text-neutral-900 dark:text-neutral-100 z-10">
+            <h3 className="text-lg font-bold text-neutral-900 dark:text-neutral-100 z-10">
               Ask Zagol{" "}
               <p className="text-sm font-thin text-neutral-500 dark:text-neutral-400">
                 {" "}
@@ -87,8 +87,8 @@ const ChatSupport: React.FC = () => {
           </div>
 
           {/* Input Area */}
-          <div className="p-4 border-t border-[#2995D3]/20 dark:border-[#444] relative">
-            <div className="flex items-center gap-1 backdrop-blur-sm rounded-xl p-2 shadow-inner">
+          <div className="p-4 pt-0 relative">
+            <div className="flex items-center gap-1 backdrop-blur-sm rounded-xl px-2 py-1 shadow-inner border-b dark:border-none">
               <input
                 type="text"
                 value={input}
