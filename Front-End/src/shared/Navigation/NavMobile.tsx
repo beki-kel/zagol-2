@@ -11,7 +11,6 @@ import SocialsList from "@/shared/SocialsList";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import SwitchDarkMode from "@/shared/SwitchDarkMode";
 import Link from "next/link";
-import LangDropdown from "@/app/(client-components)/(Header)/LangDropdown";
 
 export interface NavMobileProps {
   data?: NavItemType[];
